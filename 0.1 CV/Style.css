@@ -1,0 +1,162 @@
+body{
+    background-color: whitesmoke;
+    font-family: 'Zen Antique', serif;
+    color: grey;
+
+}
+
+main{
+    display: flex;
+}
+
+.imagen{
+    height: 300px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.perfil{
+    display: flex;
+    position: relative;
+}
+
+.nombre{
+    position: absolute;
+    bottom: 20px;
+    right: 2px;
+    color: white;
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.izquierdo{
+    width: fit-content;
+    margin: 1% 1% 0 12%;
+    background-color: white;
+    box-shadow: 5px 5px 5px 1px gray;
+}
+
+.derecho{
+    display: block;
+    margin: 1% 12% 0 1%;
+}
+
+.derecho-top{
+    padding-left: 2%;
+    background-color: white;
+    padding-bottom: 3%;
+    padding-top: 1%;
+    box-shadow: 5px 5px 5px 1px gray;
+}
+
+.derecho-bottom{
+    margin-top: 2%;
+    padding-bottom: 5%;
+    padding-left: 4%;
+    padding-top: 1%;
+    background-color: white;
+    box-shadow: 5px 5px 5px 1px gray;
+}
+.datos-personales{
+    display: block;
+    padding-left: 5%;
+    padding-top: 2%;
+    margin-bottom: 5%;
+}
+
+.horizontal{
+    display: flex;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.horizontal h3{
+    padding-left: 2%;
+}
+
+h1{
+    margin-left: 3%;
+    font-size: 30px;
+}
+
+h2{
+    margin-left: 3%;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+}
+
+h3 {
+    margin-left: 2%;
+    font-size: smaller;
+}
+.contenedor{
+    background-color: #008080;
+    color: white;
+    border-radius: 5px;
+}
+
+#empresa{
+    width: 70px;
+}
+
+.skills{
+    margin-left: 3%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.Lenguajes{
+    margin-left: 3%;
+    margin-right: 5%;
+}
+
+.container-derecho{
+    margin-top: 3%;
+}
+
+.container-derecho1 img{
+    width: 80px;
+    height: 20px;
+}
+
+footer{
+    margin-top: 1%;
+    background-color:#008080 ;
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 1% 0 2% 0;
+}
+
+.qr{
+    margin-top: 5%;
+    display: block;
+    text-align: center;
+}
+.qr img{
+    width: 250px;
+    height: 250px;
+}
+#solid{
+    width: 100px;
+    height: 50px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+a{
+    color: gray;
+}
+
+#titulos{
+    font-size: 18px;
+}
