@@ -1,17 +1,17 @@
 body{
     background-color: whitesmoke;
-    font-family: 'Zen Antique', serif;
     color: grey;
 
 }
 
 main{
     display: flex;
+    justify-content: space-around;
 }
 
 .imagen{
-    height: 300px;
-    width: auto;
+    height: auto;
+    width: 450px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -24,7 +24,7 @@ main{
 .nombre{
     position: absolute;
     bottom: 20px;
-    right: 2px;
+    right: 0;
     color: white;
     background-color: black;
     padding-left: 20px;
@@ -33,15 +33,17 @@ main{
 }
 
 .izquierdo{
-    width: fit-content;
-    margin: 1% 1% 0 12%;
+    width: 450px;
+    margin: 1% 0 0.5% 13.5%;
     background-color: white;
     box-shadow: 5px 5px 5px 1px gray;
 }
 
 .derecho{
     display: block;
-    margin: 1% 12% 0 1%;
+    width:900px;
+    margin: 1% 13.5% 0.5% 0%;
+    height: fit-content;
 }
 
 .derecho-top{
@@ -55,25 +57,26 @@ main{
 .derecho-bottom{
     margin-top: 2%;
     padding-bottom: 5%;
-    padding-left: 4%;
+    padding-left: 2%;
     padding-top: 1%;
     background-color: white;
     box-shadow: 5px 5px 5px 1px gray;
 }
 .datos-personales{
     display: block;
-    padding-left: 5%;
     padding-top: 2%;
     margin-bottom: 5%;
+    margin-left: 3%;
 }
 
 .horizontal{
     display: flex;
-    margin-top: 2%;
+    margin-top: 1%;
     text-align: center;
+    align-items: center;
 }
 
-.horizontal h3{
+.horizontal h4{
     padding-left: 2%;
 }
 
@@ -84,6 +87,23 @@ h1{
 
 h2{
     margin-left: 3%;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Zen Antique', serif;
+}
+
+h3 {
+    margin-left: 2%;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Zen Antique', serif;
+    font-size: 20px;
+}
+
+h4{
+    margin-top: 3px;
+    font-size: 12px;
 }
 
 img{
@@ -91,18 +111,15 @@ img{
     height: 30px;
 }
 
-h3 {
-    margin-left: 2%;
-    font-size: smaller;
-}
 .contenedor{
     background-color: #008080;
     color: white;
-    border-radius: 5px;
+    border-radius: 89px;
 }
 
 #empresa{
     width: 70px;
+    height: fit-content;
 }
 
 .skills{
@@ -118,11 +135,7 @@ h3 {
 
 .container-derecho{
     margin-top: 3%;
-}
-
-.container-derecho1 img{
-    width: 80px;
-    height: 20px;
+    padding-left: 2%;
 }
 
 footer{
@@ -135,22 +148,24 @@ footer{
 }
 
 .qr{
-    margin-top: 5%;
     display: block;
     text-align: center;
 }
 .qr img{
-    width: 250px;
-    height: 250px;
+    width: 190px;
+    height: 190px;
 }
+
 #solid{
-    width: 100px;
-    height: 50px;
+    width: 150px;
+    height: auto;
 }
 
 footer a{
     color: white;
     text-decoration: none;
+    margin: 2px 5px;
+    font-size: 30px;
 }
 
 a{
@@ -159,4 +174,41 @@ a{
 
 #titulos{
     font-size: 18px;
+}
+
+.container_skills{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+}
+
+.skills_logos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:50px;
+    height: 90px;
+}
+.skills_logos img{
+    width: 60px;
+    height: auto;
+}
+
+.skills_logos h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+}
+
+p{
+    font-size:14px;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Hind Siliguri', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Zen Antique', serif;
 }
